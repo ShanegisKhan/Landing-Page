@@ -11,12 +11,14 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 16px 96px 96px 96px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 0px;
+    margin-bottom: 150px;
 }
 
 .header-links {
@@ -33,7 +35,7 @@ body {
 a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;;
+    font-size: 18px;
 }
 
 .logo {
@@ -43,4 +45,48 @@ a {
     align-items: center;
     font-size: 24px;
     font-weight: 700;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    justify-content: center;
+    display: flex;
+}
+
+.hero-image{
+    width: 500px;
+    height: 250px;
+    background-color: grey;
+    flex-shrink: 0;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 6px 30px;
+    margin-top: 24px;
+    border-radius: 12px;
+    border-style: none;
+    outline-style: none;
+}
+
+.main-title-container {
+    margin-right: 24px;
+    max-width: 500px;
 }
