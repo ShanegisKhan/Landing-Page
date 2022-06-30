@@ -20,6 +20,15 @@ body {
     justify-content: center;
 }
 
+.container-3 {
+    background-color: #e5e7eb;
+    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -135,4 +144,25 @@ button {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;  
 }
