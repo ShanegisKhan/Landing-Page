@@ -29,6 +29,13 @@ body {
     align-items: center;
 }
 
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -133,7 +140,7 @@ button {
 }
 .card {
     display: flex;
-    border: 6px solid blue;
+    border: 6px solid #6fb2c7;
     width: 190px;
     height: 200px;
     border-radius: 20px;
@@ -165,4 +172,44 @@ button {
     font-style: italic;
     color: #1f2937;
     font-weight: 200;  
+}
+
+.action-call {
+    background-color: #3882f6;
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#action-button {
+    border: 2px solid white;
+    max-height: 50px;
+}
+
+.action-bold {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.action-light {
+    color: white;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
 }
