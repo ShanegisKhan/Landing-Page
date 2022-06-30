@@ -103,4 +103,36 @@ button {
  font-size: 36px;
  font-weight: 600;
  padding-top: 32px;
+ margin-bottom: 24px;
+}
+
+.card-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-and-text {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    gap: 16px;
+}
+.card {
+    display: flex;
+    border: 6px solid blue;
+    width: 190px;
+    height: 200px;
+    border-radius: 20px;
+    justify-self: center;
+}
+
+.card-text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
