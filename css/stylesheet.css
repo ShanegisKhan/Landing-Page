@@ -14,6 +14,12 @@ body {
     padding: 16px 96px 96px 96px;
 }
 
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -89,4 +95,12 @@ button {
 .main-title-container {
     margin-right: 24px;
     max-width: 500px;
+}
+
+.info {
+ display: flex;
+ justify-content: center;
+ font-size: 36px;
+ font-weight: 600;
+ padding-top: 32px;
 }
